@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>iSpeechSDK</name>
+    </assembly>
+    <members>
+        <member name="T:iSpeech.TTSResult">
+            <summary>
+            Contains the audio length and the stream
+            </summary>
+        </member>
+        <member name="M:iSpeech.TTSResult.getAudioFileLength">
+            <summary>
+            Gets the length of the audio file
+            </summary>
+            <returns>Length in bytes as a long</returns>
+        </member>
+        <member name="M:iSpeech.TTSResult.getStream">
+            <summary>
+            Audio Stream
+            </summary>
+            <returns>Stream</returns>
+        </member>
+        <member name="T:iSpeech.iSpeechSynthesis">
+            <summary>
+            ontains methods used to synthesize speech from text. You can get a reference of this class by calling SpeechSynthesis.getInstance. An API key is required to use this class. You may obtain a free key from the following URL: http://www.ispeech.org/
+            </summary>
+        </member>
+        <member name="M:iSpeech.iSpeechSynthesis.getInstance(System.String,System.Boolean)">
+            <summary>
+            Gets an instance of the iSpeech Speech Synthesis class. The ApiKey is only required on initial call to this method. 
+            </summary>
+            <param name="apiKey">Your API key provided by iSpeech.</param>
+            <param name="production">Set to true if you are deploying your application. Set to false if you are using the sandbox environment. </param>
+            <returns>Returns a iSpeechSynthesis object </returns>
+        </member>
+        <member name="M:iSpeech.iSpeechSynthesis.setVoice(System.String)">
+            <summary>
+            Sets the voice to the specified variable. 
+            </summary>
+            <param name="voice">Visit the iSpeech Developers center at http://www.ispeech.org or contact sales@ispeech.org to obtain a list of valid voices enabled for your account.</param>
+        </member>
+        <member name="M:iSpeech.iSpeechSynthesis.setOptionalCommands(System.String,System.String)">
+            <summary>
+            Specify additional parameters to send to the server. 
+            </summary>
+            <param name="command">Key</param>
+            <param name="parameter">Value</param>
+        </member>
+        <member name="M:iSpeech.iSpeechSynthesis.clearOptionalCommands">
+            <summary>
+            Clears any associated optional parameters. 
+            </summary>
+        </member>
+        <member name="M:iSpeech.iSpeechSynthesis.speak(System.String)">
+            <summary>
+            Converts text to speech.
+            </summary>
+            <param name="text">The text to convert into audio.</param>
+            <returns>Returns a TTSResult</returns>
+        </member>
+        <member name="T:iSpeech.StreamingBuffer">
+            <summary>
+            Used to write your audio data to
+            </summary>
+        </member>
+        <member name="M:iSpeech.StreamingBuffer.Flush">
+            <summary>
+            Flushes the stream
+            </summary>
+        </member>
+        <member name="M:iSpeech.StreamingBuffer.WriteByte(System.Byte)">
+            <summary>
+            Writes a single byte to the stream
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:iSpeech.StreamingBuffer.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Writes a buffer to the stream
+            </summary>
+            <param name="buffer"></param>
+            <param name="offset"></param>
+            <param name="count"></param>
+        </member>
+        <member name="T:iSpeech.SpeechResult">
+            <summary>
+            Contains the text and the confidence rating for the conversion, which is a float 0.0 to 1.0 
+            </summary>
+        </member>
+        <member name="F:iSpeech.SpeechResult.Text">
+            <summary>
+            The recognized text or null if recognition was unsuccessful.
+             </summary>
+        </member>
+        <member name="F:iSpeech.SpeechResult.Confidence">
+            <summary>
+             The confidence level of the recognition. 1.0 is equivalent to 100% accuracy.
+            </summary>
+        </member>
+        <member name="T:iSpeech.ApiException">
+            <summary>
+            An API Exception
+            </summary>
+        </member>
+        <member name="T:iSpeech.SpeechRecognizerEvent">
+            <summary>
+            Used to notify when the recording state changes
+            </summary>
+        </member>
+        <member name="F:iSpeech.SpeechRecognizerEvent.RECORDING_COMMITTED">
+            <summary>
+            Fired when audio recording has been committed. No new audio will be
+            recorded after you receive this event.
+            </summary>
+        </member>
+        <member name="F:iSpeech.SpeechRecognizerEvent.RECORDING_CANCELED">
+            <summary>
+            Fired when audio recording has been canceled. A user can cancel
+            recording by pressing the red cancel button.
+            </summary>
+        </member>
+        <member name="F:iSpeech.SpeechRecognizerEvent.RECORDING_ERROR">
+            <summary>
+            Fired when an error occurred. lastException will contain error
+            details (if available)
+            </summary>
+        </member>
+        <member name="M:iSpeech.SpeechRecognizerEvent.stateChanged(System.Int32,System.Int32,System.Exception)">
+            <summary>
+            Used to notify when the audio recorder state changes.
+            </summary>
+            <param name="eventState">One of RECORDING_COMPLETE, RECORDING_COMMITTED or RECORDING_CANCELED</param>
+            <param name="freeFormValue"> The value provided to the{@link SpeechRecognizer.setFreeForm} method</param>
+            <param name="lastException">The last exception that occurred (if any)</param>
+        </member>
+        <member name="T:iSpeech.iSpeechRecognizer">
+            <summary>
+            Contains methods to recognize spoken audio and convert free form speech into text.
+            </summary>
+        </member>
+        <member name="F:iSpeech.iSpeechRecognizer.FREEFORM_DISABLED">
+            <summary>
+            Disable free form speech recognition.
+            </summary>
+        </member>
+        <member name="F:iSpeech.iSpeechRecognizer.FREEFORM_SMS">
+            <summary>
+             A SMS or TXT message.
+            </summary>
+        </member>
+        <member name="F:iSpeech.iSpeechRecognizer.FREEFORM_VOICEMAIL">
+            <summary>
+             A voice mail transcription
+            </summary>
+        </member>
+        <member name="F:iSpeech.iSpeechRecognizer.FREEFORM_DICTATION">
+            <summary>
+             Free form dictation, such as a written document
+            </summary>
+        </member>
+        <member name="F:iSpeech.iSpeechRecognizer.FREEFORM_MESSAGE">
+            <summary>
+              A message addressed to another person.
+            </summary>
+        </member>
+        <member name="F:iSpeech.iSpeechRecognizer.FREEFORM_INSTANT_MESSAGE">
+            <summary>
+              A message for an instant message client
+            </summary>    
+        </member>
+        <member name="F:iSpeech.iSpeechRecognizer.FREEFORM_TRANSCRIPT">
+            <summary>
+              General transcription
+            </summary>
+        </member>
+        <member name="F:iSpeech.iSpeechRecognizer.FREEFORM_MEMO">
+            <summary>
+              A memo or a list of items
+            </summary>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.getInstance(System.String,System.Boolean)">
+            <summary>
+            Gets an instance of the iSpeech SpeechRecognizer class. The ApiKey parameter is only required on initial call to this method. 
+            </summary>
+            <param name="ApiKey">Your API key provided by iSpeech.</param>
+            <param name="production">Set to true if you are deploying your application. Set to false if you are using the sandbox environment. </param>
+            <returns></returns>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.startStreamingRecognize(System.String,iSpeech.SpeechRecognizerEvent)">
+            <summary>
+            Starts the ASR connection
+            </summary>
+            <param name="mimeType">The mime type of the audio data</param>
+            <param name="speechRecognizerEvent">A SpeechRecognizerEvent to receive status updates and messages. </param>
+            <returns>A stream that you will write audio data to.</returns>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.cancelRecord">
+            <summary>
+              Cancels a recording in progress and dismisses the current prompt if one is visible.
+            </summary>         
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.stopStreaming">
+            <summary>
+            Stops the recording process and returns a {@link SpeechResult}.
+            </summary>
+            <returns> {@link SpeechResult} with the text string of the audio and a float containing the estimated confidence.</returns>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.setFreeForm(System.Int32)">
+            <summary>
+             Set to free form recognition. Will not use any command or alias list.
+             Your API key must be provisioned to use this feature. One of the
+            SpeechRecognizer.FREEFORM_ values. Most developer accounts can use
+            FREEFORM_DICTATION as a parameter.
+            </summary>
+            <param name="freeFormType"></param>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.setOptionalCommand(System.String,System.String)">
+            Specify additional parameters to send to the server.
+            <summary>
+            Specify additional parameters to send to the server.
+            </summary>
+            <param name="command"></param>
+            <param name="parameter"></param>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.clearMetaAndOptionalCommands">
+            Clears any associated meta and optional parameters.
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.addAlias(System.String,System.String[])">
+            <summary>
+             Adds an alias to use inside of a command. You can reference the added
+             alias using %ALIASNAME% from within a command. Alias names are
+             automatically capitalized. Note: You can only a maximum of two aliases
+             
+             Example:
+             SpeechRecognizer rec = SpeechRecognizer.getInstance(&quot;APIKEY&quot;);
+             String[] names = new String[] { &quot;jane&quot;, &quot;bob&quot;, &quot;john&quot; };
+             rec.addAlias(&quot;NAMES&quot;, names);
+             rec.addCommand(&quot;call %NAMES%&quot;);
+             
+             The user can now speak "call john" and it will be recognized correctly.
+             
+             </summary>
+              <param name="aliasName"></param>
+              <param name="phrases"></param>
+            
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.clear">
+            <summary>
+             Clears all commands and aliases from this {@link SpeechRecognizer} object.
+             </summary>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.addCommand(System.String[])">
+             <summary>
+             Adds a new command phrase. Note: You can only use two aliases per
+             command.
+             
+             Example:
+             
+             SpeechRecognizer rec = SpeechRecognizer.getInstance(&quot;APIKEY&quot;);
+             String commands = new String(){&quot;yes&quot;,&quot;no&quot;};
+             rec.addCommand(commands);
+            
+             The user can now speak "Yes" or "No" and it will be recognized correctly.
+             
+             </summary>
+             <param name="commandPhrases"> An array containing your command phrases</param>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.addCommand(System.String)">
+             <summary>
+             Adds a new command phrase. Note: You can only use two aliases per
+             command.
+             
+             Example:
+            
+             SpeechRecognizer rec = SpeechRecognizer.getInstance(&quot;APIKEY&quot;);
+             rec.addCommand("yes");
+             rec.addCommand("no");
+             
+             The user can now speak "Yes" or "No" and it will be recognized correctly.
+             </summary>
+             <param name="commandPhrase"> A command phrase</param>
+        </member>
+        <member name="M:iSpeech.iSpeechRecognizer.setLanguage(System.String)">
+            <summary>
+            Set the speech recognition language.
+             </summary>
+             <param name="localeCode">Visit the iSpeech Developers center at http://www.ispeech.org or contact sales@ispeech.org to obtain a list of valid locale codes enabled for your account.</param>
+        </member>
+        <member name="T:iSpeech.InvalidApiKeyException">
+            <summary>
+            Generated when the API key used in the transaction is invalid.
+            </summary>
+        </member>
+    </members>
+</doc>

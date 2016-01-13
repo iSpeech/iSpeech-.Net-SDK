@@ -1,0 +1,16 @@
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK Sample.exe.config
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK Sample.exe
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK Sample.pdb
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK.dll
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK.xml
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\iSpeechSDK Sample.exe
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\iSpeechSDK Sample.pdb
+C:\Users\Tyler\documents\visual studio 2010\Projects\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK.pdb
+C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK Sample.exe.config
+C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK Sample.exe
+C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK Sample.pdb
+C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK.dll
+C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\iSpeechSDK Sample.exe
+C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\iSpeechSDK Sample.pdb
