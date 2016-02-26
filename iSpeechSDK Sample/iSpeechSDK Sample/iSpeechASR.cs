@@ -23,7 +23,7 @@ namespace iSpeechSDK_Sample
         public  void runFreeForm()
         {           
 
-            iSpeechRecognizer iSpeech = iSpeechRecognizer.getInstance(_api, _production);
+            iSpeechRecognizer iSpeech = new iSpeechRecognizer(_api, _production);
            
             iSpeech.setFreeForm(iSpeechRecognizer.FREEFORM_DICTATION);
 
@@ -52,7 +52,7 @@ namespace iSpeechSDK_Sample
 
 
 
-            iSpeechRecognizer iSpeech = iSpeechRecognizer.getInstance(_api, _production);
+            iSpeechRecognizer iSpeech = new iSpeechRecognizer(_api, _production);
 
             iSpeech.setFreeForm(iSpeechRecognizer.FREEFORM_DISABLED);
 

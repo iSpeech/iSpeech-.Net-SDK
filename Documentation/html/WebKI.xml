@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="addAlias method" Url="html/bf1e7307-b47e-f731-c8f7-403dd7112bd9.htm" />
+  <HelpKINode Title="addCommand method" Url="html/6a626918-df5b-b84c-326b-ff23c76b6d20.htm" />
+  <HelpKINode Title="ApiException class" Url="html/79651cd1-e7c5-cea9-c638-780f689dedf9.htm" />
+  <HelpKINode Title="ApiException class" Url="html/9a6cfe4f-ff65-a82c-3de8-60ae33b02a74.htm" />
+  <HelpKINode Title="ApiException class">
+    <HelpKINode Title="about ApiException class" Url="html/9a6cfe4f-ff65-a82c-3de8-60ae33b02a74.htm" />
+    <HelpKINode Title="all members" Url="html/79651cd1-e7c5-cea9-c638-780f689dedf9.htm" />
+    <HelpKINode Title="events" Url="html/630d64fa-7896-eecb-0833-4aa1c8f8e818.htm" />
+    <HelpKINode Title="methods" Url="html/a7e35483-f4e0-b47d-5034-98c00e480b32.htm" />
+    <HelpKINode Title="properties" Url="html/42514c31-effa-9a5f-f438-1f8fc19acc25.htm" />
+  </HelpKINode>
+  <HelpKINode Title="cancelRecord method" Url="html/4318c1f3-3de0-d434-309c-ac7597f5d5cb.htm" />
+  <HelpKINode Title="clear method" Url="html/caa9e829-3cc6-21f1-1759-7f77029be499.htm" />
+  <HelpKINode Title="clearMetaAndOptionalCommands method" Url="html/6d84c665-bda6-0985-9f7a-7a6740f5bb64.htm" />
+  <HelpKINode Title="clearOptionalCommands method" Url="html/91d7452e-a3b8-ebbf-a66b-a96bcb704832.htm" />
+  <HelpKINode Title="Confidence field" Url="html/ea570c09-9150-0d9b-7c65-c41c2843e10a.htm" />
+  <HelpKINode Title="Flush method" Url="html/299dd781-fe8d-eef6-6ae7-ebc2b2544f3d.htm" />
+  <HelpKINode Title="FREEFORM_DICTATION field" Url="html/1866ab69-ca25-0455-cf83-7a52135eabb1.htm" />
+  <HelpKINode Title="FREEFORM_DISABLED field" Url="html/cd7f6481-0e11-859a-ce16-02723f8edce5.htm" />
+  <HelpKINode Title="FREEFORM_INSTANT_MESSAGE field" Url="html/19af95d2-5893-6569-c9d0-78e53426fe2d.htm" />
+  <HelpKINode Title="FREEFORM_MEMO field" Url="html/7e97c574-cd1a-6fca-6905-220aa211520e.htm" />
+  <HelpKINode Title="FREEFORM_MESSAGE field" Url="html/3188f065-63ba-e8c3-8320-2784eebe4a9c.htm" />
+  <HelpKINode Title="FREEFORM_SMS field" Url="html/d8bc6903-568f-36ac-db5e-5930ae0bac53.htm" />
+  <HelpKINode Title="FREEFORM_TRANSCRIPT field" Url="html/94de4c71-f020-1ff8-ced6-621143daee30.htm" />
+  <HelpKINode Title="FREEFORM_VOICEMAIL field" Url="html/b6a62bb4-ca8d-3e84-c4f1-e011bb7306ed.htm" />
+  <HelpKINode Title="getAudioFileLength method" Url="html/e2d119a0-297f-4c0c-321f-0d5467ee450b.htm" />
+  <HelpKINode Title="getStream method" Url="html/020e40d2-2123-8a13-ab91-1dbf1222e7be.htm" />
+  <HelpKINode Title="InvalidApiKeyException class" Url="html/657747dd-e23d-b457-cc02-41f7a9176798.htm" />
+  <HelpKINode Title="InvalidApiKeyException class" Url="html/a0016f2f-eda9-eb9c-05b2-3b10f25261f0.htm" />
+  <HelpKINode Title="InvalidApiKeyException class">
+    <HelpKINode Title="about InvalidApiKeyException class" Url="html/a0016f2f-eda9-eb9c-05b2-3b10f25261f0.htm" />
+    <HelpKINode Title="all members" Url="html/657747dd-e23d-b457-cc02-41f7a9176798.htm" />
+    <HelpKINode Title="events" Url="html/900cd335-e146-07f8-3d63-b7be6bb4287b.htm" />
+    <HelpKINode Title="methods" Url="html/55c56240-dfbc-a03a-f77d-57e9eda181a6.htm" />
+    <HelpKINode Title="properties" Url="html/62b077ff-1257-5d91-d49e-4305cdff4738.htm" />
+  </HelpKINode>
+  <HelpKINode Title="iSpeech namespace" Url="html/76c7efbb-3907-e80f-ac12-0ebe826d865b.htm" />
+  <HelpKINode Title="iSpeech.ApiException class" Url="html/79651cd1-e7c5-cea9-c638-780f689dedf9.htm" />
+  <HelpKINode Title="iSpeech.ApiException class" Url="html/9a6cfe4f-ff65-a82c-3de8-60ae33b02a74.htm" />
+  <HelpKINode Title="iSpeech.InvalidApiKeyException class" Url="html/657747dd-e23d-b457-cc02-41f7a9176798.htm" />
+  <HelpKINode Title="iSpeech.InvalidApiKeyException class" Url="html/a0016f2f-eda9-eb9c-05b2-3b10f25261f0.htm" />
+  <HelpKINode Title="iSpeech.iSpeechRecognizer class" Url="html/2b29119e-e4c9-56f1-e77d-78e53cc77806.htm" />
+  <HelpKINode Title="iSpeech.iSpeechRecognizer class" Url="html/e0808804-0faa-d50f-813f-41f6bac82fe3.htm" />
+  <HelpKINode Title="iSpeech.iSpeechSynthesis class" Url="html/90633749-a0b8-7fb2-184a-bd5e07f3456c.htm" />
+  <HelpKINode Title="iSpeech.iSpeechSynthesis class" Url="html/ee3b07d7-1459-c7fd-4257-6f4ec0a9361f.htm" />
+  <HelpKINode Title="iSpeech.SpeechRecognizerEvent class" Url="html/4318efc4-6f3d-618a-56cc-0870dac5445b.htm" />
+  <HelpKINode Title="iSpeech.SpeechRecognizerEvent class" Url="html/e948b056-cbc0-9593-01ed-4983e7a8341f.htm" />
+  <HelpKINode Title="iSpeech.SpeechResult class" Url="html/0c68b85a-e722-718a-8464-57dc03589cc2.htm" />
+  <HelpKINode Title="iSpeech.SpeechResult class" Url="html/cb2c1df8-82f4-ffd8-091f-4133b67d6e03.htm" />
+  <HelpKINode Title="iSpeech.StreamingBuffer class" Url="html/3b7b6eb2-345c-a08c-161b-11be86319226.htm" />
+  <HelpKINode Title="iSpeech.StreamingBuffer class" Url="html/5c5de8d6-afe7-8588-75ba-80cd8fcc272d.htm" />
+  <HelpKINode Title="iSpeech.TTSResult class" Url="html/982e6234-4c05-6b49-4b29-d4a62ae6fcb8.htm" />
+  <HelpKINode Title="iSpeech.TTSResult class" Url="html/cf4dc8b8-482c-36cf-b587-d518c0aa0f32.htm" />
+  <HelpKINode Title="iSpeechRecognizer class" Url="html/2b29119e-e4c9-56f1-e77d-78e53cc77806.htm" />
+  <HelpKINode Title="iSpeechRecognizer class" Url="html/e0808804-0faa-d50f-813f-41f6bac82fe3.htm" />
+  <HelpKINode Title="iSpeechRecognizer class">
+    <HelpKINode Title="about iSpeechRecognizer class" Url="html/e0808804-0faa-d50f-813f-41f6bac82fe3.htm" />
+    <HelpKINode Title="all members" Url="html/2b29119e-e4c9-56f1-e77d-78e53cc77806.htm" />
+    <HelpKINode Title="constructor" Url="html/ddf64329-2ba7-835e-deb1-dd392874b9e3.htm" />
+    <HelpKINode Title="fields" Url="html/703685dc-27c9-1f60-b2b6-81f88ccc8638.htm" />
+    <HelpKINode Title="methods" Url="html/1992a4de-da55-9975-628d-822241bef375.htm" />
+  </HelpKINode>
+  <HelpKINode Title="iSpeechRecognizer.addAlias method" Url="html/bf1e7307-b47e-f731-c8f7-403dd7112bd9.htm" />
+  <HelpKINode Title="iSpeechRecognizer.addCommand method" Url="html/6a626918-df5b-b84c-326b-ff23c76b6d20.htm" />
+  <HelpKINode Title="iSpeechRecognizer.cancelRecord method" Url="html/4318c1f3-3de0-d434-309c-ac7597f5d5cb.htm" />
+  <HelpKINode Title="iSpeechRecognizer.clear method" Url="html/caa9e829-3cc6-21f1-1759-7f77029be499.htm" />
+  <HelpKINode Title="iSpeechRecognizer.clearMetaAndOptionalCommands method" Url="html/6d84c665-bda6-0985-9f7a-7a6740f5bb64.htm" />
+  <HelpKINode Title="iSpeechRecognizer.FREEFORM_DICTATION field" Url="html/1866ab69-ca25-0455-cf83-7a52135eabb1.htm" />
+  <HelpKINode Title="iSpeechRecognizer.FREEFORM_DISABLED field" Url="html/cd7f6481-0e11-859a-ce16-02723f8edce5.htm" />
+  <HelpKINode Title="iSpeechRecognizer.FREEFORM_INSTANT_MESSAGE field" Url="html/19af95d2-5893-6569-c9d0-78e53426fe2d.htm" />
+  <HelpKINode Title="iSpeechRecognizer.FREEFORM_MEMO field" Url="html/7e97c574-cd1a-6fca-6905-220aa211520e.htm" />
+  <HelpKINode Title="iSpeechRecognizer.FREEFORM_MESSAGE field" Url="html/3188f065-63ba-e8c3-8320-2784eebe4a9c.htm" />
+  <HelpKINode Title="iSpeechRecognizer.FREEFORM_SMS field" Url="html/d8bc6903-568f-36ac-db5e-5930ae0bac53.htm" />
+  <HelpKINode Title="iSpeechRecognizer.FREEFORM_TRANSCRIPT field" Url="html/94de4c71-f020-1ff8-ced6-621143daee30.htm" />
+  <HelpKINode Title="iSpeechRecognizer.FREEFORM_VOICEMAIL field" Url="html/b6a62bb4-ca8d-3e84-c4f1-e011bb7306ed.htm" />
+  <HelpKINode Title="iSpeechRecognizer.iSpeechRecognizer constructor" Url="html/ddf64329-2ba7-835e-deb1-dd392874b9e3.htm" />
+  <HelpKINode Title="iSpeechRecognizer.setFreeForm method" Url="html/c0b02c07-5820-e201-793a-e9ec915a4d43.htm" />
+  <HelpKINode Title="iSpeechRecognizer.setLanguage method" Url="html/43c307f1-aee4-9c84-d903-3b237129b040.htm" />
+  <HelpKINode Title="iSpeechRecognizer.setOptionalCommand method" Url="html/3d117dcd-60c4-4ffc-fa72-7932b4ff6b00.htm" />
+  <HelpKINode Title="iSpeechRecognizer.startStreamingRecognize method" Url="html/669663b7-1df2-07ee-c32f-02ddea74d923.htm" />
+  <HelpKINode Title="iSpeechRecognizer.stopStreaming method" Url="html/e53066b4-a736-6110-27b5-6a789b8dadcc.htm" />
+  <HelpKINode Title="iSpeechSynthesis class" Url="html/90633749-a0b8-7fb2-184a-bd5e07f3456c.htm" />
+  <HelpKINode Title="iSpeechSynthesis class" Url="html/ee3b07d7-1459-c7fd-4257-6f4ec0a9361f.htm" />
+  <HelpKINode Title="iSpeechSynthesis class">
+    <HelpKINode Title="about iSpeechSynthesis class" Url="html/90633749-a0b8-7fb2-184a-bd5e07f3456c.htm" />
+    <HelpKINode Title="all members" Url="html/ee3b07d7-1459-c7fd-4257-6f4ec0a9361f.htm" />
+    <HelpKINode Title="constructor" Url="html/3ffb7cd6-bc20-8376-523a-0d51970baeb7.htm" />
+    <HelpKINode Title="methods" Url="html/2c4c7d1a-a9c6-51a7-1ddc-84fc3b5b1992.htm" />
+  </HelpKINode>
+  <HelpKINode Title="iSpeechSynthesis.clearOptionalCommands method" Url="html/91d7452e-a3b8-ebbf-a66b-a96bcb704832.htm" />
+  <HelpKINode Title="iSpeechSynthesis.iSpeechSynthesis constructor" Url="html/3ffb7cd6-bc20-8376-523a-0d51970baeb7.htm" />
+  <HelpKINode Title="iSpeechSynthesis.setOptionalCommands method" Url="html/fba098a3-e961-c070-4ffd-9d9025143869.htm" />
+  <HelpKINode Title="iSpeechSynthesis.setVoice method" Url="html/f6307a6c-52d7-8680-2d47-6b279641a31e.htm" />
+  <HelpKINode Title="iSpeechSynthesis.speak method" Url="html/bcc077c1-fd36-3c43-5228-b840a92d836e.htm" />
+  <HelpKINode Title="RECORDING_CANCELED field" Url="html/352c7264-41fc-ef93-d654-54553345f73f.htm" />
+  <HelpKINode Title="RECORDING_COMMITTED field" Url="html/77bc2e67-bff6-b0d4-cb8e-f42f0c746221.htm" />
+  <HelpKINode Title="RECORDING_ERROR field" Url="html/d5e4f11e-1b09-6412-69b0-bc72490b7dae.htm" />
+  <HelpKINode Title="setFreeForm method" Url="html/c0b02c07-5820-e201-793a-e9ec915a4d43.htm" />
+  <HelpKINode Title="setLanguage method" Url="html/43c307f1-aee4-9c84-d903-3b237129b040.htm" />
+  <HelpKINode Title="setOptionalCommand method" Url="html/3d117dcd-60c4-4ffc-fa72-7932b4ff6b00.htm" />
+  <HelpKINode Title="setOptionalCommands method" Url="html/fba098a3-e961-c070-4ffd-9d9025143869.htm" />
+  <HelpKINode Title="setVoice method" Url="html/f6307a6c-52d7-8680-2d47-6b279641a31e.htm" />
+  <HelpKINode Title="speak method" Url="html/bcc077c1-fd36-3c43-5228-b840a92d836e.htm" />
+  <HelpKINode Title="SpeechRecognizerEvent class" Url="html/4318efc4-6f3d-618a-56cc-0870dac5445b.htm" />
+  <HelpKINode Title="SpeechRecognizerEvent class" Url="html/e948b056-cbc0-9593-01ed-4983e7a8341f.htm" />
+  <HelpKINode Title="SpeechRecognizerEvent class">
+    <HelpKINode Title="about SpeechRecognizerEvent class" Url="html/e948b056-cbc0-9593-01ed-4983e7a8341f.htm" />
+    <HelpKINode Title="all members" Url="html/4318efc4-6f3d-618a-56cc-0870dac5445b.htm" />
+    <HelpKINode Title="constructor" Url="html/52ac7efb-055c-ec27-111a-74ec482ed8e4.htm" />
+    <HelpKINode Title="fields" Url="html/1a11e6df-d573-414c-d63f-1f48d7573081.htm" />
+    <HelpKINode Title="methods" Url="html/4e475fe9-4fab-d217-a3ab-d4d91a31a963.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpeechRecognizerEvent.RECORDING_CANCELED field" Url="html/352c7264-41fc-ef93-d654-54553345f73f.htm" />
+  <HelpKINode Title="SpeechRecognizerEvent.RECORDING_COMMITTED field" Url="html/77bc2e67-bff6-b0d4-cb8e-f42f0c746221.htm" />
+  <HelpKINode Title="SpeechRecognizerEvent.RECORDING_ERROR field" Url="html/d5e4f11e-1b09-6412-69b0-bc72490b7dae.htm" />
+  <HelpKINode Title="SpeechRecognizerEvent.SpeechRecognizerEvent constructor" Url="html/52ac7efb-055c-ec27-111a-74ec482ed8e4.htm" />
+  <HelpKINode Title="SpeechRecognizerEvent.stateChanged method" Url="html/934dd45e-2bdd-db95-f348-38f24657a9b0.htm" />
+  <HelpKINode Title="SpeechResult class" Url="html/0c68b85a-e722-718a-8464-57dc03589cc2.htm" />
+  <HelpKINode Title="SpeechResult class" Url="html/cb2c1df8-82f4-ffd8-091f-4133b67d6e03.htm" />
+  <HelpKINode Title="SpeechResult class">
+    <HelpKINode Title="about SpeechResult class" Url="html/0c68b85a-e722-718a-8464-57dc03589cc2.htm" />
+    <HelpKINode Title="all members" Url="html/cb2c1df8-82f4-ffd8-091f-4133b67d6e03.htm" />
+    <HelpKINode Title="fields" Url="html/646cbe34-a390-88cd-eb89-8c8c082873d0.htm" />
+    <HelpKINode Title="methods" Url="html/e4d9537c-7426-93c1-4356-aeb258a3d936.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpeechResult.Confidence field" Url="html/ea570c09-9150-0d9b-7c65-c41c2843e10a.htm" />
+  <HelpKINode Title="SpeechResult.Text field" Url="html/b96b0ca2-cea8-075b-d190-a1e937d8b4ab.htm" />
+  <HelpKINode Title="startStreamingRecognize method" Url="html/669663b7-1df2-07ee-c32f-02ddea74d923.htm" />
+  <HelpKINode Title="stateChanged method" Url="html/934dd45e-2bdd-db95-f348-38f24657a9b0.htm" />
+  <HelpKINode Title="stopStreaming method" Url="html/e53066b4-a736-6110-27b5-6a789b8dadcc.htm" />
+  <HelpKINode Title="StreamingBuffer class" Url="html/3b7b6eb2-345c-a08c-161b-11be86319226.htm" />
+  <HelpKINode Title="StreamingBuffer class" Url="html/5c5de8d6-afe7-8588-75ba-80cd8fcc272d.htm" />
+  <HelpKINode Title="StreamingBuffer class">
+    <HelpKINode Title="about StreamingBuffer class" Url="html/5c5de8d6-afe7-8588-75ba-80cd8fcc272d.htm" />
+    <HelpKINode Title="all members" Url="html/3b7b6eb2-345c-a08c-161b-11be86319226.htm" />
+    <HelpKINode Title="methods" Url="html/14c52db5-a8e5-8325-41bd-e3c5b1dbecff.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StreamingBuffer.Flush method" Url="html/299dd781-fe8d-eef6-6ae7-ebc2b2544f3d.htm" />
+  <HelpKINode Title="StreamingBuffer.Write method" Url="html/b1358b99-ffcc-0c71-bdf0-a40af2953dab.htm" />
+  <HelpKINode Title="StreamingBuffer.WriteByte method" Url="html/27095a43-c148-6c60-ebd4-1f9de2fb81c9.htm" />
+  <HelpKINode Title="Text field" Url="html/b96b0ca2-cea8-075b-d190-a1e937d8b4ab.htm" />
+  <HelpKINode Title="TTSResult class" Url="html/982e6234-4c05-6b49-4b29-d4a62ae6fcb8.htm" />
+  <HelpKINode Title="TTSResult class" Url="html/cf4dc8b8-482c-36cf-b587-d518c0aa0f32.htm" />
+  <HelpKINode Title="TTSResult class">
+    <HelpKINode Title="about TTSResult class" Url="html/982e6234-4c05-6b49-4b29-d4a62ae6fcb8.htm" />
+    <HelpKINode Title="all members" Url="html/cf4dc8b8-482c-36cf-b587-d518c0aa0f32.htm" />
+    <HelpKINode Title="methods" Url="html/9daf3953-d19d-9455-9bfc-b6304f5a7963.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TTSResult.getAudioFileLength method" Url="html/e2d119a0-297f-4c0c-321f-0d5467ee450b.htm" />
+  <HelpKINode Title="TTSResult.getStream method" Url="html/020e40d2-2123-8a13-ab91-1dbf1222e7be.htm" />
+  <HelpKINode Title="Write method" Url="html/b1358b99-ffcc-0c71-bdf0-a40af2953dab.htm" />
+  <HelpKINode Title="WriteByte method" Url="html/27095a43-c148-6c60-ebd4-1f9de2fb81c9.htm" />
+</HelpKI>

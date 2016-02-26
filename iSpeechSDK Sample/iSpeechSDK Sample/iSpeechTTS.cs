@@ -21,7 +21,7 @@ namespace iSpeechSDK_Sample
         
         public void run(string text)
         {
-          iSpeechSynthesis iSpeech=  iSpeechSynthesis.getInstance(_api, _production);
+          iSpeechSynthesis iSpeech=  new iSpeechSynthesis(_api, _production);
 
            iSpeech.setVoice("usenglishfemale");
            iSpeech.setOptionalCommands("format", "mp3");
@@ -40,7 +40,7 @@ namespace iSpeechSDK_Sample
            }
 
 
-           FileStream fs = new FileStream("audio.wav", FileMode.Create);
+           FileStream fs = new FileStream("audio.mp3", FileMode.Create);
            BinaryWriter bw = new BinaryWriter(fs);
 
            bw.Write(audioData, 0, audioData.Length);           

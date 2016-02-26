@@ -14,3 +14,6 @@ C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\bin
 C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\iSpeechSDK Sample.exe
 C:\Users\Jesse\Desktop\iSpeechSDK Sample\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\iSpeechSDK Sample.pdb
+C:\Users\Jesse\Desktop\ispeech-.net-sdk-demo-docs-20130131 (1)\iSpeechSDK Sample\iSpeechSDK Sample\bin\Debug\iSpeechSDK Sample.exe.config
+C:\Users\Jesse\Desktop\ispeech-.net-sdk-demo-docs-20130131 (1)\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\iSpeechSDK Sample.exe
+C:\Users\Jesse\Desktop\ispeech-.net-sdk-demo-docs-20130131 (1)\iSpeechSDK Sample\iSpeechSDK Sample\obj\x86\Debug\iSpeechSDK Sample.pdb
